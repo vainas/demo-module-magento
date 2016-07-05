@@ -1,0 +1,6 @@
+<layout version="0.1.0">
+	<hiberus_helloworld_index_index>
+		<label>Mi modulo hiberus</label>
+		<block type="core/template" name="root" output="toHtml" template="helloworld.phtml" />
+	</hiberus_helloworld_index_index>
+</layout>

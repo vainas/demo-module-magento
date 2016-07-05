@@ -1,0 +1,32 @@
+<config>    
+	<modules>
+		<Hiberus_Helloworld>
+			<version>0.0.1</version>
+		</Hiberus_Helloworld>
+	</modules>
+	<global>
+		<blocks>
+			<hiberus_helloworld>
+				<class>Hiberus_Helloworld_Block</class>
+			</hiberus_helloworld>
+		</blocks>
+	</global>
+	<frontend>
+		<routers>
+			<hiberus_helloworld>
+				<use>standard</use>
+				<args>
+					<module>Hiberus_Helloworld</module>
+					<frontName>demo</frontName>
+				</args>
+			</hiberus_helloworld>
+		</routers>
+		<layout>
+			<updates>
+				<hiberus_helloworld>
+					<file>layoutworld.xml</file>
+				</hiberus_helloworld>
+			</updates>
+		</layout> 
+	</frontend>
+</config>
